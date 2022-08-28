@@ -1,0 +1,23 @@
+{
+    "defaultCommandTimeout": 8000,
+    "failOnStatusCode": false,
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md"
+    ],
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "https://luminous-meringue-661120.netlify.app/",
+    "video": false,
+    "retries": 0,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}
