@@ -15,5 +15,5 @@ Then displays event list
 When clicks on event
 Then verifies event details
 |EventName                              |Venue                |Date            |Segment        |Genre          |Price            |Image1          |Image2         |
-|New York Yankees vs. Baltimore Orioles |Venue: Yankee Stadium|Date: 2022-10-02|Segment: Sports|Genre: Baseball|Price: $15 - $510|RETINA_LANDSCAPE|RECOMENDATION  |
+|New York Yankees vs. Baltimore Orioles |Venue: Yankee Stadium|Date: 2022-10-01|Segment: Sports|Genre: Baseball|Price: $15 - $510|RETINA_LANDSCAPE|RECOMENDATION  |
 
